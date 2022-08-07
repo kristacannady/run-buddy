@@ -75,7 +75,7 @@ footer a {
 
 /* Hero Style Start */
 .hero {
-  background-image: url("https://static.fullstack-bootcamp.com/module-1/hero-bg.jpg");
+  background-image: url(./Images/hero-bg.jpeg);
   height: 600px;
   background-size: cover;
   background-position: center;
@@ -105,7 +105,7 @@ footer a {
 
 .form-input {
   border: 1px solid #024e76;
-  display: block
+  display: block;
   padding: 7px 15px;
   font-size: 16px;
   color: #024e76;
