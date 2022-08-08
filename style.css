@@ -5,7 +5,7 @@
 }
 
 body {
-  color: #39a6b2;
+  color: #fff;
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -98,11 +98,11 @@ footer a {
 .hero {
   background-image: url(./Images/hero-bg.jpeg);
   background-size: cover;
-  background-position: center;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
+  background-attachment: fixed;
   background-position: 80%;
 }
 
@@ -160,7 +160,7 @@ footer a {
   border-radius: 10px;
 }
 
-.hero.cta { 
+.hero-cta { 
   width: 35%;
   text-align: right;
   margin: 3.5%;
