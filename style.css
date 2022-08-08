@@ -103,6 +103,7 @@ footer a {
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
+  background-position: 80%;
 }
 
 /* Contact Form */
@@ -175,19 +176,11 @@ footer a {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.intro h2 {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  border-color: #fce138;
-}
-
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
   width: 80%;
+  margin: 0 auto;
   font-size: 20px;
   text-align: center;
 }
@@ -482,10 +475,6 @@ width: 50%;
   top: 1px;
   transform: rotate(-58deg);
 
-}
-
-.checkbox-wrapper input:checked, .radio-wrapper input:checked {
-  opacity: 1;
 }
 
 .checkbox-wrapper input + label::after, 
