@@ -336,6 +336,18 @@ footer a {
   color: white;
 }
 
+.contact-form input, .contact-form textarea {
+  /* add a transparent background here */
+}
+
+/* create a new css rule for focus state */
+.contact-form input:focus, .contact-form textarea:focus {
+  background-color: rgba(255,255,255, 1);
+  outline: none;
+
+}
+
+
 .contact-info h3 {
   color: #fce138;
   font-size: 32px;
